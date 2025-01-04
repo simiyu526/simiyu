@@ -1,7 +1,7 @@
-import { HStack,  Image } from '@chakra-ui/react'
-import ColorSwitchBtn from './ColorSwitchBtn'
+import { HStack,  Image } from '@chakra-ui/react';
+import ColorSwitchBtn from './ColorSwitchBtn';
 import SearchInput from './SearchInput';
-import icon from '../assets/icon.png'
+import icon from '../assets/icon.png';
 interface Props {
   onSearch:(searchText:string) => void;
 }
